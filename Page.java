@@ -3,7 +3,7 @@ public class Page {
 	private int id;
 	String address;
 	private String fech_time;
-	private int lengths;
+	private String lengths;
 	private String modified_time;
 	private String type;
 	public int getId() {
@@ -24,10 +24,10 @@ public class Page {
 	public void setFech_time(String fech_time) {
 		this.fech_time = fech_time;
 	}
-	public int getLengths() {
+	public String getLengths() {
 		return lengths;
 	}
-	public void setLengths(int lengths) {
+	public void setLengths(String lengths) {
 		this.lengths = lengths;
 	}
 	public String getModified_time() {
